@@ -13,11 +13,10 @@
     <h5 class="my-0 mr-md-auto font-weight-normal">SteelCom</h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-white" href="/">Главная</a>
-        <a class="p-2 text-white" href="/about">Продукция</a>
-        <a class="p-2 text-white" href="/about">Про нас</a>
-        <a class="p-2 text-white" href="/about">Контакты</a>
+        <a class="p-2 text-white" href="*">Продукция</a>
+        <a class="p-2 text-white" href="/review">Про нас</a>
     </nav>
-    <a class="btn btn-warning" href="/review">Отзывы</a>
+    <a class="btn btn-warning" href="*">Вход/Регистрация</a>
 </div>
 <div class="container mt-5">
     @yield('main_content')

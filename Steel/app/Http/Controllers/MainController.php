@@ -37,7 +37,7 @@ class MainController extends Controller
         $review->email = $request->input('email');
         $review->subject = $request->input('subject');
         $review->message = $request->input('message');
-
+        $review->created_at = now();
         $review->save();
 
         /*Переадрисация на отзывы*/
